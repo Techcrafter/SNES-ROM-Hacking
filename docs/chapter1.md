@@ -19,9 +19,9 @@ What are you waiting for... let's begin!
 If you read this guide, you probably know what a ROM and what a ROM hack is, but here is a short explanation anyways.
 ROM is the short form for "Read Only Memory". This is simply the name for the storage chips you can find inside your Game Pak.
 
-![Image of an Amiga ROM chip](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Amiga_Kickstart_2.06_ROM_chip_Denis_Apel_02.JPG/240px-Amiga_Kickstart_2.06_ROM_chip_Denis_Apel_02.JPG)
+![The ROM chip is the big chip on the right side](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsnescentral.com%2F0%2F7%2F1%2F0713%2FSNS-ATFE-0-pcb-front-94xx.jpg&f=1&nofb=1)
 
-*Image of an Amiga ROM chip*
+*The ROM chip is the big chip on the right side*
 
 These chips contain the game itself.
 
@@ -43,9 +43,9 @@ Before you continue, you should ask yourself if you really want to learn more ab
 
 Although this guide is meant to explain everything as uncomplicated as possible, you will not get around the assembly programming language (especially the 65c816 for the SNES) as well as some knowledge about binary and hexadecimal.
 
-![The insides of a Super Nintendo](https://upload.wikimedia.org/wikipedia/commons/5/5f/SNES-CPU-RGB01_01.jpg)
+![A SNES game controller](https://c4.wallpaperflare.com/wallpaper/876/745/123/controllers-nintendo-snes-retro-games-wallpaper-thumb.jpg)
 
-*The insides of a Super Nintendo*
+*A SNES game controller*
 
 If you do not have any programming experience (assembly would be optimal), you should maybe learn the basics of programming and then come back here. Especially for the later parts, programming knowledge will become an essential part!
 

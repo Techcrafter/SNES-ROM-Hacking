@@ -6,6 +6,8 @@
 
 ### [Chapter 1: Introduction](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter1.md)
 
+### [Chapter 2: Requirements And Setup](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter2.md)
+
 **More chapters coming soon...**
 
 ### If you like the guide, please give this repository a star!
