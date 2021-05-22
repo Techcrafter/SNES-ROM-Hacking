@@ -8,6 +8,8 @@
 
 ### [Chapter 2: Requirements And Setup](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter2.md)
 
+### [Chapter 3: Regions And Headers](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter3.md)
+
 **More chapters coming soon...**
 
 ### If you like the guide, please give this repository a star!

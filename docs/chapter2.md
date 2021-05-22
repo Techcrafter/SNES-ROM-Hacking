@@ -5,6 +5,7 @@
 ## Requirements
 
 You do not need a lot of stuff to start creating your own SNES ROM hacks. You simply need a PC running Windows or Linux.
+
 **If you use Linux, you must have the Wine compatibility layer for Windows applications installed!**
 
 ![Windows or Linux](https://www.ciberdroide.com/wordpress/wp-content/uploads/tux_vs_windows.jpg)
@@ -25,7 +26,7 @@ This guide is not sponsored, but if you want to play your ROM hacks on a real Su
 
 ## Setup
 
-There is not much setup to do for now. We only need a SNES emulator. While you read through the other chapters, you will encounter more tools you need to download, but an emulator is all we need for now.
+There is not much setup to do for now. We only need a SNES emulator and a nice tool called SNEStuff. While you read through the other chapters, you will encounter more tools you need to download, but an emulator and SNEStuff is all we need for now.
 
 Here are some recommended emulators, but others will probably work fine too:
 
@@ -33,7 +34,9 @@ Here are some recommended emulators, but others will probably work fine too:
   * [bsnes](https://github.com/bsnes-emu/bsnes/releases)
   * [ZSNES](https://zsnes.com/index.php?page=files)
 
-**Once you have installed an emulator, you are ready to continue with the next chapter!**
+And [here you can download SNEStuff](https://www.smwcentral.net/?p=section&a=details&id=4613).
+
+**Once you have installed an emulator and extracted SNEStuff, you are ready to continue with the next chapter!**
 
 ___
 
