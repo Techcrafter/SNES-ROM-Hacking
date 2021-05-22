@@ -41,7 +41,7 @@ If you are fascinated by old games and you want to create your own ROM hacks, th
 Yes, this is an "easy understandable" guide, but that does not mean you can start right away!
 Before you continue, you should ask yourself if you really want to learn more about this topic. The obvious answer would be yes, but ROM hacking will remain ROM hacking and this is NOT always easy. Even advanced people still struggle here and there. You have been warned!
 
-Although this guide is meant to explain everything as uncomplicated as possible, you will not get around the assembly programming language (especially the 65c816 for the SNES) as well as some knowledge about binary and hexadecimal.
+Although this guide is meant to explain everything as uncomplicated as possible, you will not get around the assembly programming language (especially the 65816 for the SNES) as well as some knowledge about binary and hexadecimal.
 
 ![A SNES game controller](https://c4.wallpaperflare.com/wallpaper/876/745/123/controllers-nintendo-snes-retro-games-wallpaper-thumb.jpg)
 
