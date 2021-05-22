@@ -22,10 +22,6 @@ But this does not mean that level editors are not a part of ROM hacking! If ther
 
 Keep in mind that you should be careful with the order in which you do these things. It is recommended to complete one of those actions first before starting the next one (in this case it would be to add in the power-up first)! If you haven't finished adding your new power-up for example, you should not start to create the new levels with Lunar Magic. Lunar Magic could corrupt your new power-up or even the entire ROM file.
 
-![An image of Super Mario World](https://c4.wallpaperflare.com/wallpaper/691/717/157/mario-16-bit-nintendo-snes-hd-wallpaper-thumb.jpg)
-
-*An image of Super Mario World*
-
 **If you want to learn how to use those level editors, search a bit around on the internet and you should find some great tutorials very quickly!**
 
 ___
