@@ -27,7 +27,7 @@ But this is not all about the different regions. Some games like "A Link To The 
 
 *A screenshot from the German version of ALTTP*
 
-[Here is a list with all codes for different ROM's](https://www.emuparadise.me/help/romnames.php).
+[Here is a list with the different codes and their meaning](https://www.emuparadise.me/help/romnames.php).
 
 ## Headers
 
