@@ -2,6 +2,8 @@
 
 # An easy understandable guide on how to create SNES ROM hacks.
 
+[**Display the printable version**](https://techcrafter.github.io/SNES-ROM-Hacking/printable-version.html)
+
 ## Chapter selection
 
 ### [Chapter 1: Introduction](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter1.md)
@@ -10,7 +12,7 @@
 
 ### [Chapter 3: Regions And Headers](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter3.md)
 
-### [Chapter 4: Level Editors - Lunar Magic, Hyrule Magic , ...](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter3.md)
+### [Chapter 4: Level Editors - Lunar Magic, Hyrule Magic , ...](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter4.md)
 
 **More chapters coming soon...**
 
