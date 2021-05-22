@@ -63,3 +63,7 @@ The header of a game can be easily removed and added:
 ![SNEStuff automatically adds or removes the header](https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/add-remove-header.png)
 
 *SNEStuff automatically adds or removes the header*
+
+___
+
+## [Chapter selection](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/README.md)
