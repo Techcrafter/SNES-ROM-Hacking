@@ -4,7 +4,7 @@
 
 After focusing on level editors and more, it is time to start with the ROM hacking part!
 
-**The first task is to choose the game you want to hack!**
+**The first task is to choose the ROM you want to hack!**
 
 Obviously, it is your choice which game you want to hack, but as mentioned before, those games were released for different regions. If you create a new ROM hack, you probably want other people to play it. So before you start getting your ROM with a random region, it would be a good idea to take a look at [Romhacking.net/hacks](https://www.romhacking.net/hacks) to check which regions of your game are often used for ROM hacks. Other aspects like an existing disassembly or level editor could play an important role too!
 
