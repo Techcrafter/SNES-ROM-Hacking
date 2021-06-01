@@ -6,7 +6,7 @@
 
 First of all: **This guide will NOT cover how to use level editors like Lunar Magic!**
 
-So, why is this chapter in here? Well, using level editors is by far the easiest way to create your own ROM hacks. If you simply want to create your own Super Mario World levels or a new A Link To The Past dungeon without adding in any new features, then those level editors might already be everything you need.
+So, why is this chapter in here? Well, using level editors is by far the easiest way to create your own ROM hacks. If you simply want to create your own Super Mario World levels or a new A Link To The Past dungeon without adding any new features, then those level editors might already be everything you need.
 
 Here are some recommended level editors for different games:
 
@@ -18,11 +18,11 @@ Here are some recommended level editors for different games:
 
 *Lunar Magic / Hyrule Magic / Epic Edit*
 
-But this does not mean that level editors are not a part of ROM hacking! If there is a level editor available for the game you want to hack, you can use it as a great and useful help. If you want to create a new Super Mario World hack with a new power-up and new levels for example, you can use the normal ROM hacking to add the new power-up in and use Lunar Magic to create the new levels.
+But this does not mean that level editors are not a part of ROM hacking! If there is a level editor available for the game you want to hack, you can use it as a great and useful help. If you want to create a Super Mario World hack with a new power-up and new levels for example, you can use the normal ROM hacking to add the new power-up and use Lunar Magic to create the new levels.
 
-Keep in mind that you should be careful with the order in which you do these things. It is recommended to complete one of those actions first before starting the next one (in this case it would be to add in the power-up first)! If you haven't finished adding your new power-up for example, you should not start to create the new levels with Lunar Magic. Lunar Magic could corrupt your new power-up or even the entire ROM file.
+Keep in mind that you should be careful with the order in which you do these things. It is recommended to complete one of those actions first before starting with the next one (in this case it would be to add the power-up first)! If you haven't finished adding your new power-up for example, you should not start to create the new levels with Lunar Magic. Lunar Magic could corrupt your new power-up or even the entire ROM file.
 
-**If you want to learn how to use those level editors, search a bit around on the internet and you should find some great tutorials very quickly!**
+**If you want to learn how to use those level editors, search a bit around on the internet and you should find some great tutorials very easily!**
 
 ___
 

@@ -11,7 +11,7 @@
 <h1>An easy understandable guide on how to create SNES ROM hacks.</h1>
 <hr />
 <h1>##### Printable version #####</h1>
-<h3>Visit "<a href="https://github.com/Techcrafter/SNES-ROM-Hacking" style="color: black">https://github.com/Techcrafter/SNES-ROM-Hacking</a>" for the web version!</h3>
+<h3>Visit "<a href="https://github.com/Techcrafter/SNES-ROM-Hacking" style="color: black">https://techcrafter.github.io/SNES-ROM-Hacking</a>" for the web version!</h3>
 <hr />
 <h2>Chapters</h2>
 <h3>Chapter 1: Introduction</h3>
@@ -19,7 +19,7 @@
 <h3>Chapter 3: Regions And Headers</h3>
 <h3>Chapter 4: Level Editors - Lunar Magic, Hyrule Magic , ...</h3>
 <p><strong>More chapters coming soon...</strong></p>
-<h3>If you like the guide, please give the GitHub repository a star!</h3>
+<h3>If you like this guide, please give the GitHub repository a star!</h3>
 
 <hr />
 
@@ -46,16 +46,16 @@ Those can change anything in the game like if you install a mod for a game on yo
 <h2>Knowledge you should already have</h2>
 <p>Yes, this is an "easy understandable" guide, but that does not mean you can start right away!
 Before you continue, you should ask yourself if you really want to learn more about this topic. The obvious answer would be yes, but ROM hacking will remain ROM hacking and this is NOT always easy. Even advanced people still struggle here and there. You have been warned!</p>
-<p>Although this guide is meant to explain everything as uncomplicated as possible, you will not get around the assembly programming language (especially the 65c816 for the SNES) as well as some knowledge about binary and hexadecimal.</p>
+<p>Although this guide is meant to explain everything as uncomplicated as possible, you will not get around the assembly programming language (especially the 65816 for the SNES) as well as some knowledge about binary and hexadecimal.</p>
 <p><img alt="A SNES game controller" src="https://c4.wallpaperflare.com/wallpaper/876/745/123/controllers-nintendo-snes-retro-games-wallpaper-thumb.jpg" style="width: 300px"></p>
 <p><em>A SNES game controller</em></p>
-<p>If you do not have any programming experience (assembly would be optimal), you should maybe learn the basics of programming and then come back here. Especially for the later parts, programming knowledge will become an essential part!</p>
+<p>If you do not have any programming experience (assembly would be optimal), you should maybe learn the basics of programming first and then come back here. Especially for the later parts, programming knowledge will become an essential part!</p>
 <h2>Legal notice</h2>
 <p><strong>Downloading and publishing a ROM is illegal!</strong></p>
 <p>If you need a ROM... well, Google is your best friend.
 Please do not open an issue or write an e-mail in which you ask for a ROM file.</p>
-<p>ROM hacks are being published as patches and those are legal cause you still need the original ROM!
-A patch only contains the changes you made to the ROM, but this will be covered in a later chapter.</p>
+<p>ROM hacks are being published as patches and those are legal because you still need the original ROM!
+A patch only contains the changes you have made to the ROM, but this will be covered in another chapter.</p>
 <p><strong>This guide is NOT affiliated or approved by Nintendo!</strong></p>
 
 <hr>
@@ -69,7 +69,7 @@ A patch only contains the changes you made to the ROM, but this will be covered 
 <p>The screenshots in this guide were taken on Linux, but the process is the same on Windows.</p>
 <p><strong>Mac OS with Wine compatibility layer installed was not tested! It may work, but there is no guarantee.</strong></p>
 <h2>The Super Everdrive</h2>
-<p>This guide is not sponsored, but if you want to play your ROM hacks on a real Super Nintendo, you can use a Super Everdrive. It allows you to put your ROM hacks onto an SD-Card and play those on a real console to get the full experience, but this is fully optional. An emulator will work totally fine too!</p>
+<p>This guide is not sponsored, but if you want to play your ROM hacks on a real Super Nintendo, you can use a Super Everdrive. It allows you to put your ROM files onto an SD-Card and play those on a real console to get the full experience, but this is fully optional. An emulator will work totally fine too!</p>
 <p><img alt="A Super Everdrive cartridge" src="https://images-na.ssl-images-amazon.com/images/I/41rGWbdowxL._AC_US218_.jpg"></p>
 <p><em>A Super Everdrive cartridge</em></p>
 <h2>Setup</h2>
@@ -119,18 +119,28 @@ A patch only contains the changes you made to the ROM, but this will be covered 
 </tbody>
 </table>
 <p>The main reason for this decision was to feature the different video formats for the different regions.
-Another, maybe not so obvious reason for this decision, was to prevent some Chinese and Japanese "manufacturers" to pirate games too fast. This is called a <strong>region lock</strong>. This causes a game from Japan not to work in a European console.</p>
-<p><img alt="A Super NES from the United States" src="https://c4.wallpaperflare.com/wallpaper/388/1016/1009/computer-game-console-device-electronics-wallpaper-preview.jpg" style="width: 300px"> <img alt="A Super NES from Europe" src="https://c4.wallpaperflare.com/wallpaper/74/954/404/snes-wallpaper-preview.jpg" style="width: 300px"></p>
+Another, maybe not so obvious reason for this decision, was to prevent some Chinese and Japanese "manufacturers" to pirate games too fast.</p>
+<p><img alt="A Super NES from the United States" src="https://c4.wallpaperflare.com/wallpaper/388/1016/1009/computer-game-console-device-electronics-wallpaper-preview.jpg"> <img alt="A Super NES from Europe" src="https://c4.wallpaperflare.com/wallpaper/74/954/404/snes-wallpaper-preview.jpg"></p>
 <p><em>A Super NES from the United States / A Super NES from Europe</em></p>
 <p>As you can see on the pictures above, even the designs of the consoles were very different!</p>
-<p>But this is not all about the different regions. Some games like "A Link To The Past" or "Secret of Mana" were even translated into single languages. This happened because reading text is actually really important in those games, so they translated those in multiple languages.</p>
-<p><img alt="A screenshot from the German version of ALTTP" src="https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/german-alttp.png" style="width: 300px"></p>
+<p>But this is not all about the different regions. Some games like "A Link To The Past" or "Secret of Mana" were even translated into single languages. This happened because reading text is actually really important in those games, so they translated them in multiple languages.</p>
+<p><img alt="A screenshot from the German version of ALTTP" src="https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/german-alttp.png"></p>
 <p><em>A screenshot from the German version of ALTTP</em></p>
-<p><a href="https://www.emuparadise.me/help/romnames.php" style="color: black">Here is a list with the different codes and their meaning</a>.</p>
+<p><a href="https://www.emuparadise.me/help/romnames.php">Here is a list with the different region codes and their meaning</a>.</p>
 <h2>Headers</h2>
 <p>Each official Nintendo ROM has a header. The header is important for the console because it contains information like cartridge/ROM size, additional chips (Super FX, SA-1, ...), if the game has a SRAM and more.</p>
 <p><strong>The header is only important for consoles! Most emulators will run ROM files without a header as well.</strong></p>
-<h2>Effects on patching ROM files</h2>
+<h3>Removing and adding a header</h3>
+<p>The header of a game can be easily removed and added:</p>
+<ul>
+<li>Make sure that the write protection for the ROM file is not enabled (right click on the file &gt; Properties).</li>
+<li>Open SNEStuff and click on "Add or remove header".</li>
+<li>Select your ROM.</li>
+<li>SNEStuff automatically adds or removes the header from the ROM you have selected!</li>
+</ul>
+<p><img alt="SNEStuff automatically adds or removes the header" src="https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/add-remove-header.png"></p>
+<p><em>SNEStuff automatically adds or removes the header</em></p>
+<h2>Patching ROM files</h2>
 <p>When patching a ROM it is important to check what for a ROM you need to patch!
 A ROM hack for a United States ROM will (in most cases) not work with a Japanese ROM for example.
 This depends on how similar both versions of the games are, but in most cases it will not work.</p>
@@ -140,37 +150,38 @@ Super Mario World (J) [!].smc</p>
 <ul>
 <li>"Super Mario World" is the name of the game.</li>
 <li>"(J)" means that you need the Japanese version of the game.</li>
-<li>"[!]" simply means that you need should use an error free dump.</li>
+<li>"[!]" simply means that you should use an error free dump.</li>
 <li>".smc" is the file extension. ".sfc" would work as well!</li>
 </ul>
-<h3>Removing and adding a header</h3>
-<p>The header of a game can be easily removed and added:</p>
-<ul>
-<li>Make sure that the write protection for the ROM file is not enabled (right click on the file &gt; Properties).</li>
-<li>Open SNEStuff and click on "Add or remove header".</li>
-<li>Select your ROM.</li>
-<li>SNEStuff automatically adds or removes the header from the ROM you have selected!</li>
-</ul>
-<p><img alt="SNEStuff automatically adds or removes the header" src="https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/add-remove-header.png" style="width: 300px"></p>
-<p><em>SNEStuff automatically adds or removes the header</em></p>
+<p>There are many different ROM patching tools out there, so watch out to use the right one! The most common one is 'Lunar IPS', but others like 'beat' or 'Delta Patcher' are often used too. You can simply find them by searching around the internet. Especially on <a href="https://www.romhacking.net" style="color: black">Romhacking.net</a> you should find them all.</p>
 
 <hr>
 
 <h1>Chapter 4: Level Editors - Lunar Magic, Hyrule Magic , ...</h1>
 <h2>Level editors and their usage</h2>
 <p>First of all: <strong>This guide will NOT cover how to use level editors like Lunar Magic!</strong></p>
-<p>So, why is this chapter in here? Well, using level editors is by far the easiest way to create your own ROM hacks. If you simply want to create your own Super Mario World levels or a new A Link To The Past dungeon without adding in any new features, then those level editors might already be everything you need.</p>
+<p>So, why is this chapter in here? Well, using level editors is by far the easiest way to create your own ROM hacks. If you simply want to create your own Super Mario World levels or a new A Link To The Past dungeon without adding any new features, then those level editors might already be everything you need.</p>
 <p>Here are some recommended level editors for different games:</p>
 <ul>
-<li><a href="https://fusoya.eludevisibility.org/lm/">Lunar Magic for Super Mario World</a></li>
-<li><a href="https://www.romhacking.net/utilities/200/">Hyrule Magic for The Legend Of Zelda: A Link To The Past</a></li>
-<li><a href="https://epicedit.stifu.fr/">Epic Edit for Super Mario Kart</a></li>
+<li><a href="https://fusoya.eludevisibility.org/lm/" style="color: black">Lunar Magic for Super Mario World</a></li>
+<li><a href="https://www.romhacking.net/utilities/200/" style="color: black">Hyrule Magic for The Legend Of Zelda: A Link To The Past</a></li>
+<li><a href="https://epicedit.stifu.fr/" style="color: black">Epic Edit for Super Mario Kart</a></li>
 </ul>
 <p><img alt="Lunar Magic" src="https://4.bp.blogspot.com/_nId6PpvdCiw/TO3uO4SvCvI/AAAAAAAAAFY/QtP4wbLBw2g/s1600/Lunar_magic.gif" style="width: 300px"> <img alt="Hyrule Magic" src="https://www.romhacking.net/utilities/screenshots/200screenshot1.jpg" style="width: 300px"> <img alt="Epic Edit" src="https://epicedit.stifu.fr/images/screenshot4.png" style="width: 300px"></p>
 <p><em>Lunar Magic / Hyrule Magic / Epic Edit</em></p>
-<p>But this does not mean that level editors are not a part of ROM hacking! If there is a level editor available for the game you want to hack, you can use it as a great and useful help. If you want to create a new Super Mario World hack with a new power-up and new levels for example, you can use the normal ROM hacking to add the new power-up in and use Lunar Magic to create the new levels.</p>
-<p>Keep in mind that you should be careful with the order in which you do these things. It is recommended to complete one of those actions first before starting the next one (in this case it would be to add in the power-up first)! If you haven't finished adding your new power-up for example, you should not start to create the new levels with Lunar Magic. Lunar Magic could corrupt your new power-up or even the entire ROM file.</p>
-<p><strong>If you want to learn how to use those level editors, search a bit around on the internet and you should find some great tutorials very quickly!</strong></p>
+<p>But this does not mean that level editors are not a part of ROM hacking! If there is a level editor available for the game you want to hack, you can use it as a great and useful help. If you want to create a Super Mario World hack with a new power-up and new levels for example, you can use the normal ROM hacking to add the new power-up and use Lunar Magic to create the new levels.</p>
+<p>Keep in mind that you should be careful with the order in which you do these things. It is recommended to complete one of those actions first before starting with the next one (in this case it would be to add the power-up first)! If you haven't finished adding your new power-up for example, you should not start to create the new levels with Lunar Magic. Lunar Magic could corrupt your new power-up or even the entire ROM file.</p>
+<p><strong>If you want to learn how to use those level editors, search a bit around on the internet and you should find some great tutorials very easily!</strong></p>
+
+<hr>
+
+<h1>Chapter 5: Choosing The Right Game</h1>
+<p>After focusing on level editors and more, it is time to start with the ROM hacking part!</p>
+<p><strong>The first task is to choose the game you want to hack!</strong></p>
+<p>Obviously, it is your choice which game you want to hack, but as mentioned before, those games were released for different regions. If you create a new ROM hack, you probably want other people to play it. So before you start getting your ROM with a random region, it would be a good idea to take a look at <a href="https://www.romhacking.net/hacks" style="color: black">Romhacking.net/hacks</a> to check which regions of your game are often used for ROM hacks. Other aspects like an existing disassembly or level editor could play an important role too!</p>
+<p>This guide will focus on '<strong>F-ZERO [E] [!].sfc</strong>' first. Although there are not many F-ZERO hacks, this game is easy to hack and a good example for this guide.</p>
+<p><img alt="F-ZERO - European Version" src="https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/f-zero-europe.png"></p>
+<p><em>F-ZERO - European Version</em></p>
 
 </font>
 </body>

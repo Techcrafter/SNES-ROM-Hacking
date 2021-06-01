@@ -18,7 +18,7 @@ The screenshots in this guide were taken on Linux, but the process is the same o
 
 ## The Super Everdrive
 
-This guide is not sponsored, but if you want to play your ROM hacks on a real Super Nintendo, you can use a Super Everdrive. It allows you to put your ROM hacks onto an SD-Card and play those on a real console to get the full experience, but this is fully optional. An emulator will work totally fine too!
+This guide is not sponsored, but if you want to play your ROM hacks on a real Super Nintendo, you can use a Super Everdrive. It allows you to put your ROM files onto an SD-Card and play those on a real console to get the full experience, but this is fully optional. An emulator will work totally fine too!
 
 ![A Super Everdrive cartridge](https://images-na.ssl-images-amazon.com/images/I/41rGWbdowxL._AC_US218_.jpg)
 

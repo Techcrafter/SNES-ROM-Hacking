@@ -14,6 +14,8 @@
 
 ### [Chapter 4: Level Editors - Lunar Magic, Hyrule Magic , ...](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter4.md)
 
+### [Chapter 5: Choosing The Right ROM](https://github.com/Techcrafter/SNES-ROM-Hacking/blob/main/docs/chapter5.md)
+
 **More chapters coming soon...**
 
-### If you like the guide, please give this repository a star!
+### If you like this guide, please give this repository a star!

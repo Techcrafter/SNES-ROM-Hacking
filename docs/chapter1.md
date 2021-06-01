@@ -47,7 +47,7 @@ Although this guide is meant to explain everything as uncomplicated as possible,
 
 *A SNES game controller*
 
-If you do not have any programming experience (assembly would be optimal), you should maybe learn the basics of programming and then come back here. Especially for the later parts, programming knowledge will become an essential part!
+If you do not have any programming experience (assembly would be optimal), you should maybe learn the basics of programming first and then come back here. Especially for the later parts, programming knowledge will become an essential part!
 
 ## Legal notice
 
@@ -56,8 +56,8 @@ If you do not have any programming experience (assembly would be optimal), you s
 If you need a ROM... well, Google is your best friend.
 Please do not open an issue or write an e-mail in which you ask for a ROM file.
 
-ROM hacks are being published as patches and those are legal cause you still need the original ROM!
-A patch only contains the changes you made to the ROM, but this will be covered in a later chapter.
+ROM hacks are being published as patches and those are legal because you still need the original ROM!
+A patch only contains the changes you have made to the ROM, but this will be covered in another chapter.
 
 **This guide is NOT affiliated or approved by Nintendo!**
 
