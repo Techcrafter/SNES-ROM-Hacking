@@ -1,7 +1,9 @@
 ![The SNES ROM hacking guide](https://raw.githubusercontent.com/Techcrafter/SNES-ROM-Hacking/main/docs/images/banner.png)
 
-# An easy understandable guide on how to create SNES ROM hacks.
+## ⚠️ Project state
+This project is discontinued and is therefore being archived.
 
+## An easy understandable guide on how to create SNES ROM hacks.
 [**Display the printable version**](https://techcrafter.github.io/SNES-ROM-Hacking/printable-version.html)
 
 ## Chapter selection
